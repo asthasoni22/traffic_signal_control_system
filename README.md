@@ -55,18 +55,8 @@ This repository contains a project integrating SUMO (Simulation of Urban MObilit
 
 2. Run the desired reinforcement learning algorithm:
    ```bash
-   python algorithms/ql_2way-single-intersection.py
+   python algorithms/algorithm.py
    ```
-   or
-   ```bash
-   python algorithms/dqn_2way-single-intersection.py
-   ```
-   or
-   ```bash
-   python algorithms/sarsa_2way-single-intersection.py
-   ```
+   
+3. Review simulation outputs in the `output/` folder and visualize performance metrics.
 
-4. Review simulation outputs in the `output/` folder and visualize performance metrics.
-
-### Contact
-For questions or feedback, please contact [Astha Soni](mailto:asthasoni161@gmail.com).

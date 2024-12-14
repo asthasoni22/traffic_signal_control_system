@@ -9,8 +9,9 @@ This repository contains a project integrating SUMO (Simulation of Urban MObilit
 
 - **`algorithms/`**  
   Implements reinforcement learning algorithms:
-  - `q_learning.py`: Classic Q-learning implementation.
+  - `ql.py`: Classic Q-learning implementation.
   - `dqn.py`: Deep Q-Network implementation with neural network-based function approximation.
+  - `sarsa.py`: SARSA algorithm is a slight variation of the popular Q-Learning algorithm.
 
 - **`docs/`**  
   Contains documentation-related resources, including:

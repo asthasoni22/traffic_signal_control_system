@@ -24,9 +24,6 @@ This repository contains a project integrating SUMO (Simulation of Urban MObilit
   - `exploration/`: Exploration strategies for RL agents (e.g., epsilon-greedy).
   - `.nets files`: Network configuration files for SUMO simulations.
 
-- **Snapshots**  
-  A set of images capturing the SUMO simulation software in action, providing a visual reference of the project setup.
-
 ## Prerequisites
 
 - **Python** (>= 3.7)
@@ -58,32 +55,18 @@ This repository contains a project integrating SUMO (Simulation of Urban MObilit
 
 2. Run the desired reinforcement learning algorithm:
    ```bash
-   python algorithms/q_learning.py
+   python algorithms/ql_2way-single-intersection.py
    ```
    or
    ```bash
-   python algorithms/dqn.py
+   python algorithms/dqn_2way-single-intersection.py
+   ```
+   or
+   ```bash
+   python algorithms/sarsa_2way-single-intersection.py
    ```
 
-3. Review simulation outputs in the `output/` folder and visualize performance metrics.
-
-## Documentation
-
-Detailed documentation of the project is available in the `docs/` folder, including visual references to reward functions, actions, and the SUMO setup.
-
-## Results
-
-Simulation results, including metrics like average waiting time, queue length, and throughput, are stored as CSV files in the `output/` directory. Visual snapshots of the SUMO simulation can be found in the `Snapshots` folder.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure you adhere to the coding standards and include appropriate documentation.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
+4. Review simulation outputs in the `output/` folder and visualize performance metrics.
 
 ### Contact
-For questions or feedback, please contact [Your Name](mailto:your_email@example.com).
+For questions or feedback, please contact [Astha Soni](mailto:asthasoni161@gmail.com).
